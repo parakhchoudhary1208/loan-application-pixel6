@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Bebas Neue;
+    src: url(Fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url(Fonts/Gilroy-Regular.otf);
+    font-weight: 400;
+    font-weight: 700;
+    font-weight: 500;
+    font-weight: 300;
+    font-weight: 100;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Copyright Klim Type Foundry;
+    src: url(Fonts/Soehne\ 2.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Copyright Klim Type Foundry;
+    src: url(Fonts/Soehne.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Voyage;
+    src: url(Fonts/Voyage-Regular.ttf);
+    font-weight: 300;
+    font-weight: 500;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: Gilroy;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+}
+
+h5, label, div{
+    font-family: Gilroy;
+    font-weight: 500;
+}
+
+.fluid-container{
+    height: 100%;
+    width: 100%;
+}
+
+img{
+    height: 60px;
+    width: 60px;
+}
+
+
